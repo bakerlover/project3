@@ -5,20 +5,19 @@ CACHE MANIFEST
 CACHE:
 
 # html files
-#cards.html
-
+cards.html
+cards2.html
+cards3.html
 
 # css files
 static/style.css
 
 # images
-static/club.jpg
-static/diamond.jpg
-static/hearts.jpg
-static/spade.jpg
+static/cards.gif
+static/smiley.jpg
 static/th.jpg
 # misc
-
+static/ding.mp3
 
 FALLBACK:
 

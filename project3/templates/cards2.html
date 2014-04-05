@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function newDoc()
+  {
+  window.location.assign("https://c9.io/bakerkousa/lab1/workspace/project2/cards.html");
+  }
+function oldDoc()
+  {
+  window.location.assign("https://c9.io/bakerkousa/lab1/workspace/project2/cards3.html");
+  }
+</script>
+</head>
+<img src="{{ url_for('static', filename='smiley.gif') }}" width="1350" height="300">
+
+<body style="background-color: blue">
+<div style="margin-top: 200px; margin-left: 550px;">
+<input type="button" value="Single Player" onclick="newDoc()" style="align: middle"/>
+<input type="button" value="Two Player" onclick="oldDoc()" style="margin-left: -10px;"/>
+
+  
+</div>
+</body>
+</html>
